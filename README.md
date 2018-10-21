@@ -463,9 +463,20 @@ or need a more robust starting point, then check out one of these applications:
 _This list is provided only as a reference and is not an endorsement for any of these applications._
 
 <a name="whats-new"></a>
-## WHAT'S NEW
+## Changelog
 
-#### Version 3.4.8
+#### Version 4.0.0
+10/20/2018
+* Upgraded to Font Awesome 5.4.1
+* Upgraded to Bootstrap 4.1.2
+* Upgraded to Summernote 0.8.9
+* Added an User Dashboard
+* Added environment auto-detection in root index.php *.test*
+* Changed development domain extension from .local to .test
+* Changed Admin Dashboard style
+* Changed Core style files 
+
+#### Version 3.4.8 * forked by [Johann Valenzuela](https://github.com/johannvalenzuela/)
 06/25/2018
 * Upgraded to CI 3.1.9
 * Upgraded to jQuery 3.3.1
