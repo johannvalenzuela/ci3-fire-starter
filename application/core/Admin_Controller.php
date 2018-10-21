@@ -37,6 +37,16 @@ class Admin_Controller extends MY_Controller {
         // prepare theme name
         $this->settings->theme = strtolower($this->config->item('admin_theme'));
 
+        $this
+            ->add_external_css(
+                array(
+                    base_url("/{$this->settings->themes_folder}/core/css/app.min.css")
+                ))
+            ->add_external_js(
+                array(
+                    base_url("/{$this->settings->themes_folder}/admin/js/app.min.js")
+                ));
+
         // set up global header data
         $this
             ->add_css_theme("{$this->settings->theme}.css, summernote-bs3.css")

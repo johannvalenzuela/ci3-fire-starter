@@ -1,8 +1,4 @@
-body {
-    padding-top: 30px;
-    /* Margin bottom by footer height */
-    margin-bottom: 60px;
-}
+
 
 span.active {
     color: #009900;
