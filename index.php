@@ -55,7 +55,7 @@
  */
 $domain = (! empty($_SERVER['HTTP_HOST'])) ? strtolower($_SERVER['HTTP_HOST']) : 'cli';
 
-if (strpos($domain, '.dev') !== false || strpos($domain, '.local') !== false || $domain == 'cli')
+if (strpos($domain, '.dev') !== false || strpos($domain, '.local') !== false || strpos($domain, '.test') !== false || $domain == 'cli')
 {
    define('ENVIRONMENT', 'development');
 }
@@ -76,7 +76,7 @@ else
 switch (ENVIRONMENT)
 {
 	case 'development':
-		error_reporting(-1);
+		//error_reporting(-1);
 		ini_set('display_errors', 1);
 	break;
 
