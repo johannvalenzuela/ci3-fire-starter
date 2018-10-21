@@ -56,5 +56,6 @@ $route['translate_uri_dashes'] = TRUE;
 $route['login']                = 'user/login';
 $route['logout']               = 'user/logout';
 $route['admin']                = 'admin/dashboard';
+$route['defaultuser']          = 'defaultuser/dashboard';
 
 $route['sitemap\.xml']         = 'sitemap';

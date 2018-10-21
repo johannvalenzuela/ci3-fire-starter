@@ -42,7 +42,7 @@ class User extends Public_Controller {
             }
             else
             {
-                redirect(base_url());
+                redirect('defaultuser');
             }
         }
 
@@ -71,7 +71,7 @@ class User extends Public_Controller {
                 else
                 {
                     // redirect to landing page
-                    redirect(base_url());
+                    redirect('defaultuser');
                 }
             }
         }
